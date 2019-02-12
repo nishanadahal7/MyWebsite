@@ -14,6 +14,7 @@ font-weight:300
 
 header{
   background:#55b6aa;
+  height: 50px;
 }
 .logo{
   float: left;
@@ -62,9 +63,9 @@ li a{
   text-decoration: none;
 }
 
-header{
-  background: #CCA933;
-  size:47px
+header img{
+  height: 45px;
+  width: 45px;
 }
 header::after{
   content: '';
