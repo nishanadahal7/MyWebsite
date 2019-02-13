@@ -13,8 +13,8 @@ font-weight:300
 }
 
 header{
-  background:#55b6aa;
-  height: 50px;
+  background:#DBB021;
+  height: 65px;
 }
 .logo{
   float: left;
@@ -41,7 +41,7 @@ nav a{
 
 
 body img {
-  width: 45%;
+  width: 25%;
   height: auto;
 }
 ul {
