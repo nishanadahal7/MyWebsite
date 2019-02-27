@@ -1,0 +1,54 @@
+.grid{
+  display: grid;
+  grid-template-rows: 1fr 4fr 1fr;
+  grid-row-gap: 1vh;
+}
+
+
+.grid nav ul{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 100px;
+  list-style: none;
+}
+
+.grid my nav ul li {
+  display: block;
+  background-color: lightgray;
+}
+
+.grid a{
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+main{
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-row-gap: 20px;
+}
+
+main section .introduction{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: mimax 250px 1fr;
+  grid-gap: 20px;
+}
+
+.intro-left{
+  background-color: blue
+}
+
+main section .info{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  Grid-gap:20px
+}
+
+footer{
+  text-align: center;
+}
+
+img{
+  max-width: 100%;
+}
