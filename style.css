@@ -1,6 +1,6 @@
 
 
-body{
+.body{
   margin:0;
 background:#222;
 font-family: 'Work Sans' , sans-serif;
@@ -9,7 +9,7 @@ font-weight:300
 
 .container{
   width:80%
-  margin:0 auto;
+  margin: 0 auto;
 }
 
 header{
@@ -167,4 +167,8 @@ footer{
 }
 .s-m a:hover{
 
+}
+
+.artists{
+  
 }
