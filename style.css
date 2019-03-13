@@ -16,6 +16,8 @@ header::after {
 
 .logo {
   float: left;
+  width:20%;
+  height: 20%;
 }
 
 nav{
@@ -40,6 +42,9 @@ nav a{
 
 h1 {
   padding-top: 50px;
+}
+main {
+  padding-left: 45px;
 }
 footer{
   clear: both;
@@ -72,9 +77,5 @@ footer{
   color: blue;
 }
 .s-m a:hover{
-
-}
-
-.artists{
 
 }
