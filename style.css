@@ -46,11 +46,18 @@ h1 {
 main {
   padding-left: 45px;
 }
+figure img {
+  width: 60%;
+  height: auto;
+}
 footer{
+  padding-left: 35%;
   clear: both;
   margin: 10%;
 }
-
+.foot {
+  padding-top: 15px;
+}
 .s-m{
   /* position: relative;
   bottom:50%;
@@ -70,7 +77,7 @@ footer{
 }
 
 .fab {
-  font-size: 68px;
+  font-size: 70px;
 }
 
 .fa-facebook-f {
