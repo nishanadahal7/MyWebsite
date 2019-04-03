@@ -3,7 +3,7 @@ body {
   background: #A8C0ED;
 }
 header {
-  background: #F06193;
+  background:#094DC3;
   margin: 0;
   margin-top: 0;
 }
@@ -16,12 +16,13 @@ header::after {
 
 .logo {
   float: left;
-  width:20%;
-  height: 20%;
+  width:15%;
+  height: 15%;
 }
 
 nav{
     float:right;
+    padding-top: 50px;
 }
 
 nav ul{
@@ -31,34 +32,75 @@ nav ul{
 }
 nav li{
   display:inline-block;
-  margin-right: 35px;
-
+  padding-top: 30px;
+  padding-right: 35px;
+  position: relative;
 }
 nav a{
-  color:#444;
+  color:black;
   text-decoration: none;
   text-transform: uppercase;
+}
+nav a::before{
+  content: "";
+  display: block;
+  height: 5px;
+  background-color: white;
+  position: absolute;
+  width: 0%;
+  top: 0;
+  transition: all ease-in-out 250ms;
+}
+nav a:hover{
+  color: white;
+}
+nav a:hover::before{
+  width: 100%;
+}
+
+section {
+  font-style: oblique 40deg;
+  font-size: 19px;
+  margin: 30px;
+  border-top-color: #edc5a8;
+  border-top-style: solid;
+  border-top-width: 3px;
+border-top-left-radius: 50px;
+  border-left-color: #edc5a8;
+  border-left-style: solid;
+  border-left-width: 3px;
+
+  box-shadow: -10px -10px 5px darkgray;
+  background-color: #a8edd5;
+  opacity: .5;
+}
+
+section:hover {
+  opacity: 1.0;
+}
+
+section > * {
+  padding: 10px;
 }
 
 h1 {
   padding-top: 50px;
 }
-.van{
-  font-size: 100%;
-  font-family: Georgia, serif;
-}
-main {
-  padding-left: 45px;
+.Van{
+  width: 65%;
+  height: auto;
+  padding-left: 30%;
 }
 
+main {
+  padding-left: 100px;
 }
+
 figure img {
-  width: 40%;
+  width: 50%;
   height: auto;
 }
-.color-image {
-  width: 60%;
-}
+
 footer{
   padding-left: 35%;
   clear: both;
@@ -94,7 +136,4 @@ footer{
 
 .fa-facebook-f {
   color: blue;
-}
-.s-m a:hover{
-
 }
