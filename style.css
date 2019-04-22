@@ -2,6 +2,7 @@ body {
   margin: 0;
   background: #A8C0ED;
 }
+
 header {
   background:#094DC3;
   margin: 0;
@@ -33,7 +34,7 @@ nav ul{
 nav li{
   display:inline-block;
   padding-top: 30px;
-  padding-right: 35px;
+  padding-right: 30px;
   position: relative;
 }
 nav a{
@@ -65,10 +66,16 @@ section {
   border-top-color: #edc5a8;
   border-top-style: solid;
   border-top-width: 3px;
-border-top-left-radius: 50px;
+  border-radius: 50px;
   border-left-color: #edc5a8;
   border-left-style: solid;
   border-left-width: 3px;
+  border-bottom-color: #edc5a8;
+  border-bottom-style:solid;
+  border-bottom-width: 3px;
+  border-right-color: #edc5a8;
+  border-right-style: solid;
+  border-right-width: 3px;
 
   box-shadow: -10px -10px 5px darkgray;
   background-color: #a8edd5;
@@ -82,14 +89,20 @@ section:hover {
 section > * {
   padding: 10px;
 }
+.Deepika{
+  width: 65%;
+  height: auto;
+  align-items: right;
+}
 
 h1 {
   padding-top: 50px;
 }
-.Van{
-  width: 65%;
-  height: auto;
-  padding-left: 30%;
+.van{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 main {
